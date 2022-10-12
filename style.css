@@ -243,7 +243,40 @@ nav ul {
     padding-top: 25px;
 }
 
+@media screen and (min-width: 480px){
 
+.nav-links {
+    display: none;
+}
+
+nav {
+    position: initial;
+    top: initial;
+    left: initial;
+    width: initial;
+    height: initial;
+    justify-content: space-between;
+}
+
+.navbar {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background-color: initial;
+}
+
+nav, ul{
+    display: flex;
+    margin:0 30 px;
+}
+
+nav, ul, li{ 
+    display: flex; 
+    align-items: flex-end;
+    margin: 0 30px;
+    
+} 
+
+}
 
 
 
