@@ -46,11 +46,14 @@ td, th {
     padding: 20px;
 }
 
+td {
+    font-size: 12px;
+}
 
 .caracteristique h2 {
     font-size: 20px;
+    text-decoration: underline;
 }
-
 
 .nav-links {
     display: inline-block;
@@ -145,19 +148,26 @@ nav ul {
     padding: 25px;
 }
 
+.shark1 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .shark1 img {
     margin-top: 20px;
-    display: block;
     max-width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid white;
+}
+.shark2 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .shark2 img {
     margin-top: 20px;
-    display: block;
     max-width: 90%;
     height: auto;
     margin-left: auto;
@@ -165,9 +175,13 @@ nav ul {
     border: 5px solid white;
 }
 
+.shark3 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .shark3 img {
     margin-top: 20px;
-    display: block;
     max-width: 90%;
     height: auto;
     margin-left: auto;
@@ -181,6 +195,54 @@ nav ul {
     font-size: 17px;
     font-family: 'Pacifico', sans-serif;
 }
+
+.detail h2 {
+    font-size: 27px;
+}
+
+.detail1 {
+    padding: 50px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Pacifico', sans-serif;
+
+}
+
+.detail1 h2 {
+    font-size: 27px;
+}
+
+.detail2 {
+    padding: 30px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Pacifico', sans-serif;
+
+}
+
+.detail2 h2 {
+    font-size: 27px;
+}
+
+.asterisque p {
+    font-family: 'Pacifico', sans-serif;
+    padding:30px;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.Contact h2 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    padding-top: 25px;
+}
+
 
 
 

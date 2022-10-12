@@ -8,3 +8,9 @@ function openCloseNav(x) {
         nav.style.width = "0";
     }
 }
+
+function Message() {
+    let msg = "Merci pour votre message, nous revenons vers vous dans les plus brefs délais !";
+    console.log(msg);
+    alert(msg);
+}
