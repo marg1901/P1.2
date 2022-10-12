@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    height: 170px;
+    justify-content: space-between;
+    align-items: center;
+    background: lightseagreen;
+    border-bottom: 5px white solid;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
+}
+
+h2 {
+    padding: 25px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    padding: 15px;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+    padding-top: 20px;
+}
+
+td, th {
+    text-align: center;
+    border: 10px solid white;
+    padding: 20px;
+}
+
+
+.caracteristique h2 {
+    font-size: 20px;
+}
+
+
+.nav-links {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.bar1, 
+.bar2, 
+.bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px;
+    transition: 0.7s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar  */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar  */
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+nav {
+    position:absolute;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(7px);
+    height: 50vh;
+    overflow: hidden;
+    width: 0;
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: lightpink;
+}
+
+.fit-picture {
+    border-radius: 80px;
+}
+
+#titre {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(Photos/requinM.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    max-width: 100%; 
+    max-height: 100%;
+    width: 100%;
+    height: auto; 
+    background-repeat: no-repeat;
+    border-bottom: 5px white solid;
+}
+
+.description p {
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+.flex-container img {
+    display: block;
+    width: 250px;
+    border: 10px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container p {
+    text-align: center;
+    padding: 25px;
+}
+
+.shark1 img {
+    margin-top: 20px;
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
