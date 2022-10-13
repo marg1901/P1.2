@@ -9,8 +9,8 @@ function openCloseNav(x) {
     }
 }
 
-function Message() {
-    let msg = "Merci pour votre message, nous revenons vers vous dans les plus brefs délais !";
-    console.log(msg);
-    alert(msg);
-}
+//function Message() {
+   // let msg = "Merci pour votre message, nous revenons vers vous dans les plus brefs délais !";
+   // console.log(msg);
+   // alert(msg);
+//}

@@ -3,15 +3,16 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 header {
     display: flex;
-    height: 170px;
     justify-content: space-between;
     align-items: center;
     background: lightseagreen;
     border-bottom: 5px white solid;
+    padding: 1rem;
 }
 
 body {
@@ -35,9 +36,12 @@ h3 {
 }
 
 table {
+    display: block;
     margin: auto;
     width: 90%;
     padding-top: 20px;
+    overflow-x: auto;
+    /* white-space: nowrap; */
 }
 
 td, th {
@@ -91,9 +95,10 @@ nav {
     left: 0;
     top: 0;
     backdrop-filter: blur(7px);
-    height: 50vh;
+    height: 100vh;
     overflow: hidden;
     width: 0;
+    z-index: 3;
 }
 
 nav ul {
@@ -104,6 +109,7 @@ nav ul {
 
 .navbar a {
     color: white;
+    transition: color .5s;
 }
 
 .navbar a:hover {
@@ -112,6 +118,7 @@ nav ul {
 
 .fit-picture {
     border-radius: 80px;
+    width: 80px;
 }
 
 #titre {
@@ -130,7 +137,7 @@ nav ul {
 
 .description p {
     padding: 25px;
-    text-align: center;
+    text-align: justify;
     color: white;
 }
 
@@ -148,12 +155,12 @@ nav ul {
     padding: 25px;
 }
 
-.shark1 {
+.shark-banner {
     display: flex;
     justify-content: space-between;
 }
 
-.shark1 img {
+.shark-banner img {
     margin-top: 20px;
     max-width: 90%;
     height: auto;
@@ -161,6 +168,16 @@ nav ul {
     margin-right: auto;
     border: 5px solid white;
 }
+.shark-banner .container-img {
+    width: 49%;
+}
+
+.container-img img {
+    width: 100%;
+    display: block;
+    animation: slideDown 7s;
+}
+
 .shark2 {
     display: flex;
     justify-content: space-between;
@@ -232,9 +249,14 @@ nav ul {
 }
 
 .Contact h2 {
+    background-image: url(Photos/contact.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25vh; 
     font-size: 20px;
     color: whitesmoke;
 }
+
 .contactForm {
     display: flex;
     flex-direction: column;
@@ -243,7 +265,22 @@ nav ul {
     padding-top: 25px;
 }
 
-@media screen and (min-width: 480px){
+.flex-container p {
+    animation: slideDown 10s;
+}
+
+@keyframes slideDown {
+from {
+    transform: translateY (200px);
+    opacity: 0;
+}
+to {
+    transform: translateY(0);
+    opacity: 2;
+}
+}
+
+@media screen and (min-width: 415px){
 
 .nav-links {
     display: none;
@@ -275,6 +312,24 @@ nav, ul, li{
     margin: 0 30px;
     
 } 
+
+#titre {
+    background-image: initial;
+    background-image: url(Photos/Aileron.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#prezshark {
+    display: none;
+}
+
+.Contact h2 {
+    width: 600px;
+    background-size: cover;
+    
+}
 
 }
 
