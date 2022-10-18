@@ -1,5 +1,5 @@
 function openCloseNav(x) {
-    var nav = document.querySelector("nav");
+    let nav = document.querySelector("nav");
     if (nav.style.width != "auto") {
         x.classList.add("change");
         nav.style.width = "auto";
@@ -9,8 +9,7 @@ function openCloseNav(x) {
     }
 }
 
-//function Message() {
-   // let msg = "Merci pour votre message, nous revenons vers vous dans les plus brefs délais !";
-   // console.log(msg);
-   // alert(msg);
-//}
+function Message() {
+const msg = "Merci pour votre curiosité !";
+alert (msg);
+}
