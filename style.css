@@ -20,6 +20,11 @@ body {
     background-color: lightblue;
 }
 
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+}
+
 h2 {
     padding: 27px;
     color: aliceblue;
@@ -93,11 +98,12 @@ nav {
     position:absolute;
     left: 0;
     top: 0;
-    backdrop-filter: blur(7px);
-    height: 100vh;
+    /* backdrop-filter: blur(7px); */
+    height: 20vh;
     overflow: hidden;
     width: 0;
     z-index: 3;
+    background-color: lightcyan;
 }
 
 nav ul {
@@ -107,7 +113,7 @@ nav ul {
 }
 
 .navbar a {
-    color: white;
+    color: black;
     transition: color .5s;
 }
 
@@ -125,13 +131,17 @@ nav ul {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    background-image: url(Photos/requinM.jpg);
+    background-image: url(Photos/fond.jpeg);
     background-size: cover;
     background-position: 50% 50%;
     width: 100%;
     height: auto; 
     background-repeat: no-repeat;
     border-bottom: 5px white solid;
+}
+
+#prezshark h2 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .description p {
@@ -240,6 +250,7 @@ form.contactForm {
 
 label {
     padding: 30px;
+    text-shadow: 1px 1px 1px black;
     
 }
 
@@ -305,6 +316,11 @@ nav, ul, li{
     
 } 
 
+.navbar a {
+    color: white;
+    transition: color .5s;
+}
+
 #titre {
     background-image: initial;
     border: none;
@@ -315,10 +331,10 @@ nav, ul, li{
 }
 
 body.bg-home {
-    background-image: url(Photos/fond.jpg);
+    background-image: url(Photos/fondc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 75% 15%;
+    background-position: 75% 12%;
 }
 
 body.bg-contact {
@@ -347,6 +363,19 @@ textarea {
     height: 250px;
     width: 500px;
 }
+
+.description p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 900;
+}
+
+.bienvenue p {
+    position: absolute;
+    bottom: 0;
+    left: 27%;
+}
+
 
 }
 
