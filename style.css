@@ -325,11 +325,16 @@ nav, ul, li{
 #titre {
     background-image: initial;
     border: none;
+    text-align: left;
 }
 
 #prezshark {
     display: none;
 }
+
+#prezshark h2 {
+    font-family: 'Raleway', sans-serif;
+  }
 
 body.bg-home {
     background-image: url(Photos/fondd.jpg);
