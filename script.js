@@ -12,6 +12,6 @@ function openCloseNav(x) {
 document.getElementById("contactForm").addEventListener("submit", function (e) {
     e.preventDefault();
     const name = document.getElementById("name").value;
-    const msg = `Merci ${name} pour votre curiosité !`;
+    const msg = `Merci ${name}, je reviens vers vous très prochainement!`;
     alert(msg);
 });
