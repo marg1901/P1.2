@@ -164,7 +164,7 @@ nav ul {
 .flex-container p {
     text-align: center;
     padding: 25px;
-    animation: slideDown 20s;
+    animation: slideDown 5s;
 }
 
 .shark-banner {
