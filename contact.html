@@ -42,24 +42,25 @@
         <h2>Vous êtes curieux ? Faites-le nous savoir !</h2>
     </section>
 
-    <form class="contactForm">
+    <form id="contactForm">
         <label for="name">First name:</label>
         <br /><br />
-        <input type="text" id="name" name="name" placeholder="Votre Nom" />
+        <input type="text" id="name" name="name" placeholder="Votre Nom" required="required" />
         <br /><br />
         <label for="email">Email:</label>
         <br /><br />
-        <input type="email" id="email" placeholder="exemple@squale.fr" />
+        <input type="email" id="email" placeholder="exemple@squale.fr" required="required" />
         <br /><br />
         <label for="message">Message:</label>
         <br /><br />
-        <textarea id="message" name="message"></textarea>
+        <textarea id="message" name="message" required="required"></textarea>
         <br />
         <br />
         <div>
             <br />
             <br />
-            <input type="submit" value="N'ayez pas peur ! Cliquez ici !" onClick="Message()" />
+            <input type="submit" placeholder="Veuillez renseigner votre message."
+                value="N'ayez pas peur ! Cliquez ici !" />
         </div>
     </form>
     <script src="script.js"></script>

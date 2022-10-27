@@ -9,7 +9,9 @@ function openCloseNav(x) {
     }
 }
 
-function Message() {
-const msg = "Merci pour votre curiosité !";
-alert (msg);
-}
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const msg = `Merci ${name} pour votre curiosité !`;
+    alert(msg);
+});
